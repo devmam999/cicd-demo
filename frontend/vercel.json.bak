@@ -1,17 +1,17 @@
 {
-  "name": "gamma-cicd-demo",
+  "name": "prod-cicd-demo",
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
   "outputDirectory": ".next",
   "git": {
-  "name": "gamma-cicd-demo",
+  "name": "prod-cicd-demo",
     "deploymentEnabled": true
   },
   "regions": ["iad1"],
   "github": {
-  "name": "gamma-cicd-demo",
+  "name": "prod-cicd-demo",
     "silent": false,
     "autoAlias": true
   }
